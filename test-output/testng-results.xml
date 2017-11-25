@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Valid LoginLogout Fail]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68034" started-at="2017-11-25T15:09:49Z" finished-at="2017-11-25T15:10:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="68034" started-at="2017-11-25T15:09:49Z" finished-at="2017-11-25T15:10:57Z">
+      <class name="com.script.Facebook.LoginLogoutScript">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.script.Facebook.LoginLogoutScript@d80b78]" name="openBrowser" is-config="true" duration-ms="9272" started-at="2017-11-25T20:39:49Z" finished-at="2017-11-25T20:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="FAIL" signature="validLoginLogout()[pri:0, instance:com.script.Facebook.LoginLogoutScript@d80b78]" name="validLoginLogout" duration-ms="58695" started-at="2017-11-25T20:39:59Z" finished-at="2017-11-25T20:40:57Z">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:66)
+	at com.script.Facebook.LoginLogoutScript.validLoginLogout(LoginLogoutScript.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+            <line>
+              <![CDATA[Valid LoginLogout Fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLoginLogout -->
+      </class> <!-- com.script.Facebook.LoginLogoutScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
